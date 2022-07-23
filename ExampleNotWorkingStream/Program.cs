@@ -8,10 +8,10 @@ memory.CopyTo(twoMemory);
 
 Console.WriteLine("{0}=={1}",
     Encoding.UTF8.GetString(twoMemory.ToArray()),
-    Encoding.UTF8.GetString(memory.ToArray()));
+    Encoding.UTF8.GetString(memory.ToArray()));//llo,world==Hello,world
 bool check = 
     Encoding.UTF8.GetString(twoMemory.ToArray()) ==
-    Encoding.UTF8.GetString(memory.ToArray());
+    Encoding.UTF8.GetString(memory.ToArray()); 
 
 //if (!check)
 //    throw new Exception("is not equals");
